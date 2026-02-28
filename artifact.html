@@ -39,8 +39,7 @@ h2 { border-bottom: 2px solid #ddd; padding-bottom: 5px; }
 <section>
     <h2>Enhancement 1: Software Design & Engineering</h2>
     <p>
-        Explain how you improved structure, modularity, documentation,
-        testing, architecture, or security.
+        For my CS 499 project, I really leveled up my Express app by cleaning up the structure—swapped out messy var declarations for organized const imports, cut the duplicate database calls, and grouped everything logically so it's way easier to follow. I added helpful block comments that actually explain the why behind decisions like the CORS setup or how it handles API vs web errors differently. Architecture-wise, it now smartly checks if it's an API call and sends JSON back instead of crashing with HTML errors, which makes it play nice with my Angular frontend. Security got a big boost too—ditched the brittle manual CORS headers for proper cors() middleware that handles everything securely. Overall, it went from basic student code to something production-ready that could handle real traffic on Heroku with Passport auth and MongoDB.
     </p>
 </section>
 
